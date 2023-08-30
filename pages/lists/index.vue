@@ -282,7 +282,10 @@ export default {
   top: 40%;
 }
 
-::v-deep tr:hover{ cursor: pointer; }
+::v-deep tr:hover {
+  cursor: pointer;
+}
+
 //Следующие 3 селектора для того что поменять пагинацию и кнопки местами
 .footer-buttons {
   order: 4;
